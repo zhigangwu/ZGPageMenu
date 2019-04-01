@@ -1,0 +1,6 @@
+framework module Pods_ZGPageMenu_Example {
+  umbrella header "Pods-ZGPageMenu_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

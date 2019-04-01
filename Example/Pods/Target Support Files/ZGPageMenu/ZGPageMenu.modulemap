@@ -1,0 +1,6 @@
+framework module ZGPageMenu {
+  umbrella header "ZGPageMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
