@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>大法师</string>
+		<string>山丘之王</string>
+		<string>圣骑士</string>
+		<string>血魔法师</string>
+	</array>
+	<array>
+		<string>农民</string>
+		<string>民兵
+民兵</string>
+		<string>步兵</string>
+		<string>火枪手</string>
+		<string>牧师</string>
+		<string>女巫</string>
+		<string>魔法破坏者</string>
+		<string>矮人直升机</string>
+		<string>迫击炮小队</string>
+		<string>蒸汽坦克</string>
+		<string>狮鹫骑士</string>
+		<string>龙鹰</string>
+		<string>骑士</string>
+	</array>
+	<array>
+		<string>城镇大厅</string>
+		<string>国王祭坛</string>
+		<string>农场</string>
+		<string>兵营</string>
+		<string>神秘藏宝室</string>
+		<string>伐木场</string>
+		<string>铁匠铺</string>
+		<string>哨塔</string>
+		<string>防御塔</string>
+		<string>神秘之塔</string>
+		<string>要塞</string>
+		<string>车间</string>
+		<string>神秘圣地</string>
+		<string>狮鹫笼</string>
+		<string>城堡</string>
+		<string>炮塔</string>
+	</array>
+</array>
+</plist>

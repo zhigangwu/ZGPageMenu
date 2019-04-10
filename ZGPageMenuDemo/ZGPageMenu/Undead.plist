@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>死亡骑士</string>
+		<string>巫妖</string>
+		<string>恐惧魔王</string>
+		<string>地穴领主</string>
+	</array>
+	<array>
+		<string>侍僧</string>
+		<string>食尸鬼</string>
+		<string>地穴恶魔</string>
+		<string>石像鬼</string>
+		<string>亡灵巫师</string>
+		<string>女妖</string>
+		<string>绞肉车</string>
+		<string>憎恶</string>
+		<string>黑曜石雕像</string>
+		<string>毁灭者</string>
+		<string>阴影</string>
+		<string>冰霜巨龙</string>
+	</array>
+	<array>
+		<string>闹鬼金矿</string>
+		<string>大墓地</string>
+		<string>亡者大厅</string>
+		<string>黑色城堡</string>
+		<string>地穴</string>
+		<string>通灵塔</string>
+		<string>黑暗祭坛</string>
+		<string>坟场</string>
+		<string>屠宰场</string>
+		<string>诅咒神庙</string>
+		<string>牺牲深渊</string>
+		<string>埋骨地</string>
+		<string>古墓废墟</string>
+		<string>蜘蛛怪塔</string>
+		<string>幽魂之塔</string>
+	</array>
+</array>
+</plist>

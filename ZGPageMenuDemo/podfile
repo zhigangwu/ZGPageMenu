@@ -1,0 +1,11 @@
+project 'ZGPageMenu.xcodeproj'
+
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'ZGPageMenu' do
+use_frameworks!
+
+  pod 'Masonry'
+end
+

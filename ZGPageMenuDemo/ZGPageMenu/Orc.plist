@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>剑圣</string>
+		<string>先知</string>
+		<string>牛头人酋长</string>
+		<string>暗影猎手</string>
+	</array>
+	<array>
+		<string>苦工</string>
+		<string>兽族步兵</string>
+		<string>巨魔猎头者</string>
+		<string>巨魔狂暴战士</string>
+		<string>粉碎者</string>
+		<string>萨满祭司</string>
+		<string>巨魔巫医</string>
+		<string>灵魂行者</string>
+		<string>掠夺者</string>
+		<string>科多兽</string>
+		<string>风骑士</string>
+		<string>巨魔蝙蝠骑士</string>
+		<string>牛头人</string>
+	</array>
+	<array>
+		<string>大厅</string>
+		<string>要塞</string>
+		<string>堡垒</string>
+		<string>兵营</string>
+		<string>风暴祭坛</string>
+		<string>战争磨坊</string>
+		<string>兽栏</string>
+		<string>灵魂归宿</string>
+		<string>牛头人图腾</string>
+		<string>巫毒商店</string>
+		<string>兽族地洞</string>
+		<string>瞭望塔</string>
+	</array>
+</array>
+</plist>

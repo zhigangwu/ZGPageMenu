@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181628B022536B7800ACEC78 /* CollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181628AF22536B7800ACEC78 /* CollectionHeaderView.m */; };
+		187A0E272248AF85002F0F19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A0E262248AF85002F0F19 /* AppDelegate.m */; };
+		187A0E2A2248AF85002F0F19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A0E292248AF85002F0F19 /* ViewController.m */; };
+		187A0E2D2248AF85002F0F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A0E2B2248AF85002F0F19 /* Main.storyboard */; };
+		187A0E2F2248AF89002F0F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187A0E2E2248AF89002F0F19 /* Assets.xcassets */; };
+		187A0E322248AF89002F0F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187A0E302248AF89002F0F19 /* LaunchScreen.storyboard */; };
+		187A0E352248AF89002F0F19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A0E342248AF89002F0F19 /* main.m */; };
+		187A0E4B2248B0BF002F0F19 /* ZGPageMenu_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A0E3C2248B0BF002F0F19 /* ZGPageMenu_ViewController.m */; };
+		187A0E4C2248B0BF002F0F19 /* NightElf_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A0E402248B0BF002F0F19 /* NightElf_ViewController.m */; };
+		187A0E4D2248B0BF002F0F19 /* Humanity_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A0E422248B0BF002F0F19 /* Humanity_ViewController.m */; };
+		187A0E4E2248B0BF002F0F19 /* Undead_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A0E432248B0BF002F0F19 /* Undead_ViewController.m */; };
+		187A0E4F2248B0BF002F0F19 /* Orc_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A0E442248B0BF002F0F19 /* Orc_ViewController.m */; };
+		187A0E502248B0BF002F0F19 /* ZGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A0E482248B0BF002F0F19 /* ZGScrollView.m */; };
+		187A0E512248B0BF002F0F19 /* ZGPageMenu_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A0E4A2248B0BF002F0F19 /* ZGPageMenu_CollectionViewCell.m */; };
+		187A0E562248B0CD002F0F19 /* Humanity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187A0E522248B0CD002F0F19 /* Humanity.plist */; };
+		187A0E572248B0CD002F0F19 /* Undead.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187A0E532248B0CD002F0F19 /* Undead.plist */; };
+		187A0E582248B0CD002F0F19 /* NightElf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187A0E542248B0CD002F0F19 /* NightElf.plist */; };
+		187A0E592248B0CD002F0F19 /* Orc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187A0E552248B0CD002F0F19 /* Orc.plist */; };
+		1888D1132249CE29001B02D5 /* HeroCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1122249CE29001B02D5 /* HeroCollectionViewCell.m */; };
+		FD2642FD84EF35858C407E3D /* Pods_ZGPageMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328C24B7AD5A3628A601DCC /* Pods_ZGPageMenu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181628AE22536B7800ACEC78 /* CollectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionHeaderView.h; sourceTree = "<group>"; };
+		181628AF22536B7800ACEC78 /* CollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionHeaderView.m; sourceTree = "<group>"; };
+		187A0E222248AF85002F0F19 /* ZGPageMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGPageMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187A0E252248AF85002F0F19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187A0E262248AF85002F0F19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187A0E282248AF85002F0F19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187A0E292248AF85002F0F19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187A0E2C2248AF85002F0F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187A0E2E2248AF89002F0F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187A0E312248AF89002F0F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187A0E332248AF89002F0F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187A0E342248AF89002F0F19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187A0E3C2248B0BF002F0F19 /* ZGPageMenu_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPageMenu_ViewController.m; sourceTree = "<group>"; };
+		187A0E3D2248B0BF002F0F19 /* ZGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGScrollView.h; sourceTree = "<group>"; };
+		187A0E3F2248B0BF002F0F19 /* Undead_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Undead_ViewController.h; sourceTree = "<group>"; };
+		187A0E402248B0BF002F0F19 /* NightElf_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightElf_ViewController.m; sourceTree = "<group>"; };
+		187A0E412248B0BF002F0F19 /* Orc_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orc_ViewController.h; sourceTree = "<group>"; };
+		187A0E422248B0BF002F0F19 /* Humanity_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Humanity_ViewController.m; sourceTree = "<group>"; };
+		187A0E432248B0BF002F0F19 /* Undead_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Undead_ViewController.m; sourceTree = "<group>"; };
+		187A0E442248B0BF002F0F19 /* Orc_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Orc_ViewController.m; sourceTree = "<group>"; };
+		187A0E452248B0BF002F0F19 /* Humanity_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humanity_ViewController.h; sourceTree = "<group>"; };
+		187A0E462248B0BF002F0F19 /* NightElf_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightElf_ViewController.h; sourceTree = "<group>"; };
+		187A0E472248B0BF002F0F19 /* ZGPageMenu_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPageMenu_CollectionViewCell.h; sourceTree = "<group>"; };
+		187A0E482248B0BF002F0F19 /* ZGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGScrollView.m; sourceTree = "<group>"; };
+		187A0E492248B0BF002F0F19 /* ZGPageMenu_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPageMenu_ViewController.h; sourceTree = "<group>"; };
+		187A0E4A2248B0BF002F0F19 /* ZGPageMenu_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPageMenu_CollectionViewCell.m; sourceTree = "<group>"; };
+		187A0E522248B0CD002F0F19 /* Humanity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Humanity.plist; sourceTree = "<group>"; };
+		187A0E532248B0CD002F0F19 /* Undead.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Undead.plist; sourceTree = "<group>"; };
+		187A0E542248B0CD002F0F19 /* NightElf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NightElf.plist; sourceTree = "<group>"; };
+		187A0E552248B0CD002F0F19 /* Orc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Orc.plist; sourceTree = "<group>"; };
+		187A0E5A2248B133002F0F19 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		1888D1112249CE29001B02D5 /* HeroCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroCollectionViewCell.h; sourceTree = "<group>"; };
+		1888D1122249CE29001B02D5 /* HeroCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroCollectionViewCell.m; sourceTree = "<group>"; };
+		2328C24B7AD5A3628A601DCC /* Pods_ZGPageMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZGPageMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EB921A3393B28224E2146B /* Pods-ZGPageMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGPageMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGPageMenu/Pods-ZGPageMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		DDD62A3C252491E9F9EEA5BD /* Pods-ZGPageMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGPageMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGPageMenu/Pods-ZGPageMenu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187A0E1F2248AF85002F0F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2642FD84EF35858C407E3D /* Pods_ZGPageMenu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187A0E192248AF84002F0F19 = {
+			isa = PBXGroup;
+			children = (
+				187A0E242248AF85002F0F19 /* ZGPageMenu */,
+				187A0E232248AF85002F0F19 /* Products */,
+				C671DF08F81B09B57718D78D /* Pods */,
+				FC2E7EB6C34C9EF8452A0CC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		187A0E232248AF85002F0F19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187A0E222248AF85002F0F19 /* ZGPageMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187A0E242248AF85002F0F19 /* ZGPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				187A0E3B2248B0BF002F0F19 /* PageView */,
+				187A0E252248AF85002F0F19 /* AppDelegate.h */,
+				187A0E262248AF85002F0F19 /* AppDelegate.m */,
+				187A0E282248AF85002F0F19 /* ViewController.h */,
+				187A0E292248AF85002F0F19 /* ViewController.m */,
+				187A0E2B2248AF85002F0F19 /* Main.storyboard */,
+				187A0E2E2248AF89002F0F19 /* Assets.xcassets */,
+				187A0E302248AF89002F0F19 /* LaunchScreen.storyboard */,
+				187A0E332248AF89002F0F19 /* Info.plist */,
+				187A0E522248B0CD002F0F19 /* Humanity.plist */,
+				187A0E542248B0CD002F0F19 /* NightElf.plist */,
+				187A0E552248B0CD002F0F19 /* Orc.plist */,
+				187A0E532248B0CD002F0F19 /* Undead.plist */,
+				187A0E5A2248B133002F0F19 /* Header.h */,
+				187A0E342248AF89002F0F19 /* main.m */,
+			);
+			path = ZGPageMenu;
+			sourceTree = "<group>";
+		};
+		187A0E3B2248B0BF002F0F19 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				187A0E3D2248B0BF002F0F19 /* ZGScrollView.h */,
+				187A0E482248B0BF002F0F19 /* ZGScrollView.m */,
+				187A0E472248B0BF002F0F19 /* ZGPageMenu_CollectionViewCell.h */,
+				187A0E4A2248B0BF002F0F19 /* ZGPageMenu_CollectionViewCell.m */,
+				187A0E492248B0BF002F0F19 /* ZGPageMenu_ViewController.h */,
+				187A0E3C2248B0BF002F0F19 /* ZGPageMenu_ViewController.m */,
+				187A0E3E2248B0BF002F0F19 /* ChildrenController */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		187A0E3E2248B0BF002F0F19 /* ChildrenController */ = {
+			isa = PBXGroup;
+			children = (
+				1888D1102249CDFD001B02D5 /* Cell */,
+				187A0E452248B0BF002F0F19 /* Humanity_ViewController.h */,
+				187A0E422248B0BF002F0F19 /* Humanity_ViewController.m */,
+				187A0E3F2248B0BF002F0F19 /* Undead_ViewController.h */,
+				187A0E432248B0BF002F0F19 /* Undead_ViewController.m */,
+				187A0E462248B0BF002F0F19 /* NightElf_ViewController.h */,
+				187A0E402248B0BF002F0F19 /* NightElf_ViewController.m */,
+				187A0E412248B0BF002F0F19 /* Orc_ViewController.h */,
+				187A0E442248B0BF002F0F19 /* Orc_ViewController.m */,
+			);
+			path = ChildrenController;
+			sourceTree = "<group>";
+		};
+		1888D1102249CDFD001B02D5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1888D1112249CE29001B02D5 /* HeroCollectionViewCell.h */,
+				1888D1122249CE29001B02D5 /* HeroCollectionViewCell.m */,
+				181628AE22536B7800ACEC78 /* CollectionHeaderView.h */,
+				181628AF22536B7800ACEC78 /* CollectionHeaderView.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C671DF08F81B09B57718D78D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB921A3393B28224E2146B /* Pods-ZGPageMenu.debug.xcconfig */,
+				DDD62A3C252491E9F9EEA5BD /* Pods-ZGPageMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC2E7EB6C34C9EF8452A0CC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2328C24B7AD5A3628A601DCC /* Pods_ZGPageMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187A0E212248AF85002F0F19 /* ZGPageMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187A0E382248AF89002F0F19 /* Build configuration list for PBXNativeTarget "ZGPageMenu" */;
+			buildPhases = (
+				786B9D1CE0B8D503F1A630BF /* [CP] Check Pods Manifest.lock */,
+				187A0E1E2248AF85002F0F19 /* Sources */,
+				187A0E1F2248AF85002F0F19 /* Frameworks */,
+				187A0E202248AF85002F0F19 /* Resources */,
+				F174DEAB312BE1055921EE0B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGPageMenu;
+			productName = ZGPageMenu;
+			productReference = 187A0E222248AF85002F0F19 /* ZGPageMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187A0E1A2248AF84002F0F19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Presonal;
+				TargetAttributes = {
+					187A0E212248AF85002F0F19 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 187A0E1D2248AF84002F0F19 /* Build configuration list for PBXProject "ZGPageMenu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187A0E192248AF84002F0F19;
+			productRefGroup = 187A0E232248AF85002F0F19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187A0E212248AF85002F0F19 /* ZGPageMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187A0E202248AF85002F0F19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187A0E322248AF89002F0F19 /* LaunchScreen.storyboard in Resources */,
+				187A0E582248B0CD002F0F19 /* NightElf.plist in Resources */,
+				187A0E572248B0CD002F0F19 /* Undead.plist in Resources */,
+				187A0E2F2248AF89002F0F19 /* Assets.xcassets in Resources */,
+				187A0E2D2248AF85002F0F19 /* Main.storyboard in Resources */,
+				187A0E592248B0CD002F0F19 /* Orc.plist in Resources */,
+				187A0E562248B0CD002F0F19 /* Humanity.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		786B9D1CE0B8D503F1A630BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZGPageMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F174DEAB312BE1055921EE0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZGPageMenu/Pods-ZGPageMenu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGPageMenu/Pods-ZGPageMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187A0E1E2248AF85002F0F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187A0E4C2248B0BF002F0F19 /* NightElf_ViewController.m in Sources */,
+				181628B022536B7800ACEC78 /* CollectionHeaderView.m in Sources */,
+				187A0E512248B0BF002F0F19 /* ZGPageMenu_CollectionViewCell.m in Sources */,
+				187A0E4F2248B0BF002F0F19 /* Orc_ViewController.m in Sources */,
+				187A0E4D2248B0BF002F0F19 /* Humanity_ViewController.m in Sources */,
+				187A0E2A2248AF85002F0F19 /* ViewController.m in Sources */,
+				187A0E4E2248B0BF002F0F19 /* Undead_ViewController.m in Sources */,
+				187A0E352248AF89002F0F19 /* main.m in Sources */,
+				1888D1132249CE29001B02D5 /* HeroCollectionViewCell.m in Sources */,
+				187A0E502248B0BF002F0F19 /* ZGScrollView.m in Sources */,
+				187A0E272248AF85002F0F19 /* AppDelegate.m in Sources */,
+				187A0E4B2248B0BF002F0F19 /* ZGPageMenu_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187A0E2B2248AF85002F0F19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187A0E2C2248AF85002F0F19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187A0E302248AF89002F0F19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187A0E312248AF89002F0F19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187A0E362248AF89002F0F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187A0E372248AF89002F0F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187A0E392248AF89002F0F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EB921A3393B28224E2146B /* Pods-ZGPageMenu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7B275JG2T;
+				GCC_PREFIX_HEADER = /Users/apple/Downloads/Demo/ZGPageMenuDemo/ZGPageMenu/Header.h;
+				INFOPLIST_FILE = ZGPageMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Presonal.ZGPageMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187A0E3A2248AF89002F0F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD62A3C252491E9F9EEA5BD /* Pods-ZGPageMenu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7B275JG2T;
+				GCC_PREFIX_HEADER = /Users/apple/Downloads/Demo/ZGPageMenuDemo/ZGPageMenu/Header.h;
+				INFOPLIST_FILE = ZGPageMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Presonal.ZGPageMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187A0E1D2248AF84002F0F19 /* Build configuration list for PBXProject "ZGPageMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187A0E362248AF89002F0F19 /* Debug */,
+				187A0E372248AF89002F0F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187A0E382248AF89002F0F19 /* Build configuration list for PBXNativeTarget "ZGPageMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187A0E392248AF89002F0F19 /* Debug */,
+				187A0E3A2248AF89002F0F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187A0E1A2248AF84002F0F19 /* Project object */;
+}

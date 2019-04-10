@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>恶魔猎手</string>
+		<string>丛林守护者</string>
+		<string>月之女祭司</string>
+		<string>守望者</string>
+	</array>
+	<array>
+		<string>小精灵</string>
+		<string>弓箭手</string>
+		<string>女猎手</string>
+		<string>投刃车</string>
+		<string>树妖</string>
+		<string>利爪德鲁依人形态</string>
+		<string>利爪德鲁依熊形态</string>
+		<string>山岭巨人</string>
+		<string>角鹰兽</string>
+		<string>角鹰兽骑士</string>
+		<string>猛禽德鲁依人形态</string>
+		<string>猛禽德鲁依鸟形态</string>
+		<string>精灵龙</string>
+		<string>奇美拉</string>
+	</array>
+	<array>
+		<string>缠绕金矿</string>
+		<string>生命之树</string>
+		<string>远古之树</string>
+		<string>永恒之树</string>
+		<string>战争古树</string>
+		<string>知识古树</string>
+		<string>风之古树</string>
+		<string>远古守护者</string>
+		<string>奇迹古树</string>
+		<string>月亮井</string>
+		<string>长者祭坛</string>
+		<string>猎手大厅</string>
+		<string>奇美拉栖木</string>
+	</array>
+</array>
+</plist>
