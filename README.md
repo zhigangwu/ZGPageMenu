@@ -22,7 +22,7 @@ pod 'ZGPageMenu'
 
 ## Author
 
-1402832352@qq.com, 1402832352@qq.com
+Ryan, 1402832352@qq.com
 
 ## License
 
