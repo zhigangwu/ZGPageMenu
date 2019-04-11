@@ -385,18 +385,32 @@ UIKIT_EXTERN const CGFloat UIScrollViewDecelerationRateFast NS_AVAILABLE_IOS(3_0
 - (void)crawlStyle:(UIScrollView *)scrollView contentOffsetBefor:(int)OffsetBefor contentOffsetCurrent:(int)OffsetCurrent currentCollectionCell:(ZGPageMenu_CollectionViewCell *)cell leftSlide:(ZGPageMenu_CollectionViewCell *)cell_right rightSlide:(ZGPageMenu_CollectionViewCell *)cell_left {
     CGFloat offsetRatio;
     if (OffsetCurrent > OffsetBefor) {
-        offsetRatio =  OffsetCurrent / WIDTH;
-        NSLog(@"添加长度 %f", offsetRatio);
+        offsetRatio =  (OffsetCurrent - OffsetBefor) / WIDTH;
         
-        if (offsetRatio >= 0 && offsetRatio <= WIDTH / 4) {
+        if (100 * offsetRatio * 2 < (100 - _line_Width) / 2) {
             cell.lineImageV.backgroundColor = _bgColor;
-            cell.lineImageV.frame = CGRectMake((100 - _line_Width) / 2, 40 - _line_Height, _line_Width + (100 * offsetRatio), _line_Height);
-        } else if (offsetRatio > WIDTH / 4 && offsetRatio < WIDTH / 2) {
+            cell.lineImageV.frame = CGRectMake((100 - _line_Width) / 2, 40 - _line_Height, _line_Width + (100 * offsetRatio) * 2, _line_Height);
+        } else if (100 * offsetRatio * 2 >=  (100 - _line_Width) / 2 &&
+                   100 * offsetRatio * 2 <= 100) {
             cell.lineImageV.backgroundColor = _bgColor;
             cell.lineImageV.frame = CGRectMake((100 - _line_Width) / 2, 40 - _line_Height,100 - (100 - _line_Width) / 2, _line_Height);
             
             cell_right.lineImageV.backgroundColor = _bgColor;
-            cell_right.lineImageV.frame = CGRectMake(0, 40 - _line_Height,100 - 100 * offsetRatio, _line_Height);
+            cell_right.lineImageV.frame = CGRectMake(0, 40 - _line_Height,(100 * offsetRatio) * 2 - (100 - _line_Width) / 2, _line_Height);
+        } else if (100 * offsetRatio * 2 > 100 &&
+                   100 * offsetRatio * 2 < 100 + (100 - (100 - _line_Width) / 2)) {
+            cell.lineImageV.backgroundColor = _bgColor;
+            cell.lineImageV.frame = CGRectMake((100 - _line_Width) / 2 + (100 * offsetRatio * 2 - 100), 40 - _line_Height, (100 - (100 - _line_Width) / 2) - (100 * offsetRatio * 2 - 100), _line_Height);
+            
+            cell_right.lineImageV.backgroundColor = _bgColor;
+            cell_right.lineImageV.frame = CGRectMake(0, 40 - _line_Height,100 - (100 - _line_Width) / 2, _line_Height);
+        } else if (100 * offsetRatio * 2 >= 100 + (100 - (100 - _line_Width) / 2) &&
+                   100 * offsetRatio * 2 <= 200) {
+            cell.lineImageV.backgroundColor = UIColor.whiteColor;
+            cell.lineImageV.frame = CGRectMake((100 - _line_Width) / 2, 40 - _line_Height, _line_Width, _line_Height);
+            
+            cell_right.lineImageV.backgroundColor = _bgColor;
+            cell_right.lineImageV.frame = CGRectMake(100 * offsetRatio * 2 - (100 + (100 - (100 - _line_Width) / 2)), 40 - _line_Height,100 - (100 - _line_Width) / 2 - (100 * offsetRatio * 2 - (100 + (100 - (100 - _line_Width) / 2))) , _line_Height);
         }
         
         [self colorTransition:OffsetBefor currentOffset:OffsetCurrent];
@@ -404,13 +418,33 @@ UIKIT_EXTERN const CGFloat UIScrollViewDecelerationRateFast NS_AVAILABLE_IOS(3_0
         cell_right.titleLab.textColor = [UIColor colorWithRed:dr green:dg blue:db alpha:1];
         
     } else {
-        offsetRatio = abs(OffsetCurrent - OffsetBefor) * _line_Width / WIDTH;
+        offsetRatio =  abs(OffsetCurrent - OffsetBefor) / WIDTH;
         
-        cell.lineImageV.backgroundColor = _bgColor;
-        cell.lineImageV.frame = CGRectMake((100 - _line_Width) / 2 + offsetRatio / 2, 40 - _line_Height, _line_Width - offsetRatio, _line_Height);
-        
-        cell_left.lineImageV.backgroundColor = _bgColor;
-        cell_left.lineImageV.frame = CGRectMake(50 - offsetRatio / 2, 40 - _line_Height, offsetRatio, _line_Height);
+        if (100 * offsetRatio * 2 < (100 - _line_Width) / 2) {
+            cell.lineImageV.backgroundColor = _bgColor;
+            cell.lineImageV.frame = CGRectMake((100 - _line_Width) / 2 - (100 * offsetRatio * 2), 40 - _line_Height, _line_Width + (100 * offsetRatio) * 2, _line_Height);
+        } else if (100 * offsetRatio * 2 >=  (100 - _line_Width) / 2 &&
+                   100 * offsetRatio * 2 <= 100) {
+            cell.lineImageV.backgroundColor = _bgColor;
+            cell.lineImageV.frame = CGRectMake(0, 40 - _line_Height,100 - (100 - _line_Width) / 2, _line_Height);
+            
+            cell_left.lineImageV.backgroundColor = _bgColor;
+            cell_left.lineImageV.frame = CGRectMake(100 - (100 * offsetRatio * 2 - (100 - _line_Width) / 2), 40 - _line_Height,100 * offsetRatio * 2 - (100 - _line_Width) / 2, _line_Height);
+        } else if (100 * offsetRatio * 2 > 100 &&
+                   100 * offsetRatio * 2 < 100 + (100 - (100 - _line_Width) / 2)) {
+            cell.lineImageV.backgroundColor = _bgColor;
+            cell.lineImageV.frame = CGRectMake(0, 40 - _line_Height, (100 - (100 - _line_Width) / 2) - (100 * offsetRatio * 2 - 100), _line_Height);
+            
+            cell_left.lineImageV.backgroundColor = _bgColor;
+            cell_left.lineImageV.frame = CGRectMake((100 - _line_Width) / 2, 40 - _line_Height,100 - (100 - _line_Width) / 2, _line_Height);
+        } else if (100 * offsetRatio * 2 >= 100 + (100 - (100 - _line_Width) / 2) &&
+                   100 * offsetRatio * 2 <= 200) {
+            cell.lineImageV.backgroundColor = UIColor.whiteColor;
+            cell.lineImageV.frame = CGRectMake((100 - _line_Width) / 2, 40 - _line_Height, _line_Width, _line_Height);
+            
+            cell_left.lineImageV.backgroundColor = _bgColor;
+            cell_left.lineImageV.frame = CGRectMake((100 - _line_Width) / 2, 40 - _line_Height,100 - (100 - _line_Width) / 2 - (100 * offsetRatio * 2 - (100 + (100 - (100 - _line_Width) / 2))) , _line_Height);
+        }
         
         [self colorTransition:OffsetBefor currentOffset:OffsetCurrent];
         cell.titleLab.textColor = [UIColor colorWithRed:sr green:sg blue:sb alpha:1];
