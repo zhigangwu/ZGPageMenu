@@ -26,6 +26,9 @@
 		187A0E582248B0CD002F0F19 /* NightElf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187A0E542248B0CD002F0F19 /* NightElf.plist */; };
 		187A0E592248B0CD002F0F19 /* Orc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187A0E552248B0CD002F0F19 /* Orc.plist */; };
 		1888D1132249CE29001B02D5 /* HeroCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1122249CE29001B02D5 /* HeroCollectionViewCell.m */; };
+		189B619A2260761700AFD2B6 /* Naga_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B61992260761700AFD2B6 /* Naga_ViewController.m */; };
+		189B619D2260763200AFD2B6 /* DarkTroll_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B619C2260763200AFD2B6 /* DarkTroll_ViewController.m */; };
+		189B61A02260765000AFD2B6 /* RedDragon_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B619F2260765000AFD2B6 /* RedDragon_ViewController.m */; };
 		FD2642FD84EF35858C407E3D /* Pods_ZGPageMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2328C24B7AD5A3628A601DCC /* Pods_ZGPageMenu.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,12 @@
 		187A0E5A2248B133002F0F19 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		1888D1112249CE29001B02D5 /* HeroCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroCollectionViewCell.h; sourceTree = "<group>"; };
 		1888D1122249CE29001B02D5 /* HeroCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroCollectionViewCell.m; sourceTree = "<group>"; };
+		189B61982260761700AFD2B6 /* Naga_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Naga_ViewController.h; sourceTree = "<group>"; };
+		189B61992260761700AFD2B6 /* Naga_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Naga_ViewController.m; sourceTree = "<group>"; };
+		189B619B2260763200AFD2B6 /* DarkTroll_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkTroll_ViewController.h; sourceTree = "<group>"; };
+		189B619C2260763200AFD2B6 /* DarkTroll_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkTroll_ViewController.m; sourceTree = "<group>"; };
+		189B619E2260765000AFD2B6 /* RedDragon_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedDragon_ViewController.h; sourceTree = "<group>"; };
+		189B619F2260765000AFD2B6 /* RedDragon_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedDragon_ViewController.m; sourceTree = "<group>"; };
 		2328C24B7AD5A3628A601DCC /* Pods_ZGPageMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZGPageMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EB921A3393B28224E2146B /* Pods-ZGPageMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGPageMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGPageMenu/Pods-ZGPageMenu.debug.xcconfig"; sourceTree = "<group>"; };
 		DDD62A3C252491E9F9EEA5BD /* Pods-ZGPageMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGPageMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGPageMenu/Pods-ZGPageMenu.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +155,12 @@
 				187A0E402248B0BF002F0F19 /* NightElf_ViewController.m */,
 				187A0E412248B0BF002F0F19 /* Orc_ViewController.h */,
 				187A0E442248B0BF002F0F19 /* Orc_ViewController.m */,
+				189B61982260761700AFD2B6 /* Naga_ViewController.h */,
+				189B61992260761700AFD2B6 /* Naga_ViewController.m */,
+				189B619B2260763200AFD2B6 /* DarkTroll_ViewController.h */,
+				189B619C2260763200AFD2B6 /* DarkTroll_ViewController.m */,
+				189B619E2260765000AFD2B6 /* RedDragon_ViewController.h */,
+				189B619F2260765000AFD2B6 /* RedDragon_ViewController.m */,
 			);
 			path = ChildrenController;
 			sourceTree = "<group>";
@@ -293,11 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189B61A02260765000AFD2B6 /* RedDragon_ViewController.m in Sources */,
 				187A0E4C2248B0BF002F0F19 /* NightElf_ViewController.m in Sources */,
 				181628B022536B7800ACEC78 /* CollectionHeaderView.m in Sources */,
+				189B619A2260761700AFD2B6 /* Naga_ViewController.m in Sources */,
 				187A0E512248B0BF002F0F19 /* ZGPageMenu_CollectionViewCell.m in Sources */,
 				187A0E4F2248B0BF002F0F19 /* Orc_ViewController.m in Sources */,
 				187A0E4D2248B0BF002F0F19 /* Humanity_ViewController.m in Sources */,
+				189B619D2260763200AFD2B6 /* DarkTroll_ViewController.m in Sources */,
 				187A0E2A2248AF85002F0F19 /* ViewController.m in Sources */,
 				187A0E4E2248B0BF002F0F19 /* Undead_ViewController.m in Sources */,
 				187A0E352248AF89002F0F19 /* main.m in Sources */,

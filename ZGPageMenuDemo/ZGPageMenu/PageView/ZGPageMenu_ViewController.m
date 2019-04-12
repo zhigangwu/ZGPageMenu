@@ -9,6 +9,10 @@
 #import "ZGPageMenu_ViewController.h"
 #import "ZGScrollView.h"
 
+#import "Naga_ViewController.h"
+#import "DarkTroll_ViewController.h"
+#import "RedDragon_ViewController.h"
+
 @interface ZGPageMenu_ViewController () <AddChindrenViewControllerDelegate>
 {
     ZGScrollView *scrollView;
@@ -92,9 +96,17 @@
 
     Orc_ViewController *orc = [[Orc_ViewController alloc] init];
     [self addChildViewController:orc];
+    
+    Naga_ViewController *naga = [[Naga_ViewController alloc] init];
+    [self addChildViewController:naga];
+    
+    DarkTroll_ViewController *darkTroll = [[DarkTroll_ViewController alloc] init];
+    [self addChildViewController:naga];
+    
+    RedDragon_ViewController *redDragon = [[RedDragon_ViewController alloc] init];
+    [self addChildViewController:redDragon];
 
-    NSMutableArray *mutablearray = [NSMutableArray arrayWithObjects:humanity,undead,nightElf,orc,nil];
-
+    NSMutableArray *mutablearray = [NSMutableArray arrayWithObjects:humanity,undead,nightElf,orc,naga,darkTroll,redDragon,nil];
     [scrollView addChildrenController:mutablearray];
 }
 

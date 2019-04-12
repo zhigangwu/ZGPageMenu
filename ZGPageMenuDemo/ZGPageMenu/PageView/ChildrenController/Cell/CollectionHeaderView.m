@@ -17,8 +17,7 @@
         _titleLab.textAlignment = NSTextAlignmentCenter;
         [self addSubview:_titleLab];
         [_titleLab mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.center.mas_equalTo(self);
-            make.left.right.equalTo(self);
+            make.top.left.right.bottom.equalTo(self);
         }];
     }
     return self;

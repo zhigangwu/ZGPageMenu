@@ -140,8 +140,8 @@ UIKIT_EXTERN const CGFloat UIScrollViewDecelerationRateFast NS_AVAILABLE_IOS(3_0
     ZGPageMenu_CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     
     cell.titleLab.text = self.dataArray[indexPath.row];
-    cell.layer.borderWidth = 0.5;
-    cell.layer.borderColor = UIColor.grayColor.CGColor;
+//    cell.layer.borderWidth = 0.5;
+//    cell.layer.borderColor = UIColor.grayColor.CGColor;
     
     [cell setLineFrameWidth:_line_Width lineFrameHeight:_line_Height lineBackgroundColor:_bgColor];
     
@@ -186,8 +186,8 @@ UIKIT_EXTERN const CGFloat UIScrollViewDecelerationRateFast NS_AVAILABLE_IOS(3_0
         int befor_contentOffset = WIDTH * _defaultInteger; // 默认偏移量
         int current_contentOffset = scrollView.contentOffset.x; // 当前的偏移量
         
-        NSLog(@"befor_contentOffset = %d",befor_contentOffset);
-        NSLog(@"current_contentOffset = %d",current_contentOffset);
+//        NSLog(@"befor_contentOffset = %d",befor_contentOffset);
+//        NSLog(@"current_contentOffset = %d",current_contentOffset);
         
         NSIndexPath *indexPath = [NSIndexPath indexPathForItem:_currentInteger inSection:0];
         ZGPageMenu_CollectionViewCell *cell = (ZGPageMenu_CollectionViewCell *)[_collectionView cellForItemAtIndexPath:indexPath];
@@ -466,11 +466,15 @@ UIKIT_EXTERN const CGFloat UIScrollViewDecelerationRateFast NS_AVAILABLE_IOS(3_0
         
         if (_currentInteger > _defaultInteger) {
             UIViewController *viewController = [[UIViewController alloc] init];
-            viewController = allChildrenController[_currentInteger - 1];
+            if (_currentInteger - 1 >= 0) {
+                viewController = allChildrenController[_currentInteger - 1];
+            }
             [viewController.view removeFromSuperview];
         } else {
             UIViewController *viewController = [[UIViewController alloc] init];
-            viewController = allChildrenController[_currentInteger + 1];
+            if (_currentInteger + 1 <= allChildrenController.count - 1) {
+                viewController = allChildrenController[_currentInteger + 1];
+            }
             [viewController.view removeFromSuperview];
         }
         

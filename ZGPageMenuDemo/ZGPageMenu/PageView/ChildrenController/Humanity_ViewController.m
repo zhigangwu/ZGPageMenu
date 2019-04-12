@@ -37,7 +37,8 @@
     layout.minimumLineSpacing = 0;
     layout.minimumInteritemSpacing = 0;
     
-    collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT - 40 - (Height_NavBar ? 88 : 64)) collectionViewLayout:layout];
+//    collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT - 40 - (Height_NavBar ? 88 : 64)) collectionViewLayout:layout];
+    collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
     collectionView.backgroundColor = UIColor.whiteColor ;
     collectionView.delegate = self;
     collectionView.dataSource = self;
@@ -45,11 +46,11 @@
     [collectionView registerClass:[CollectionHeaderView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header"];
     [collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"footer"];
     [self.view addSubview:collectionView];
-//    [collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.top.equalTo(self.view).offset(10);
-//        make.left.right.equalTo(self.view);
-//        make.bottom.equalTo(self.view);
-//    }];
+    [collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.view).offset(0);
+        make.left.right.equalTo(self.view);
+        make.bottom.equalTo(self.view);
+    }];
 
     
     iconHeroArray = @[@"大法师",@"山丘之王",@"圣骑士",@"血魔法师"];
@@ -123,7 +124,6 @@
 
 }
 
-/**
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
     CGPoint point = [scrollView.panGestureRecognizer translationInView:scrollView];
@@ -139,5 +139,5 @@
     }
     
 }
-**/
+
 @end

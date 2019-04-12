@@ -11,15 +11,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, UICollectionViewCellChangeStyle) {
-    UICollectionViewCellChangeStyleDefaultStyle,
-    UICollectionViewCellChangeStyleSynchronizeStyle,
-    UICollectionViewCellChangeStyleMovingStyle,
-    UICollectionViewCellChangeStyleIndentationStyle,
-    UICollectionViewCellChangeStyleCrawlStyle
+    UICollectionViewCellChangeStyleDefaultStyle,        // 默认样式
+    UICollectionViewCellChangeStyleSynchronizeStyle,    // 同步
+    UICollectionViewCellChangeStyleMovingStyle,         // 移动
+    UICollectionViewCellChangeStyleIndentationStyle,    // 缩进
+    UICollectionViewCellChangeStyleCrawlStyle           // 爬行
 };
 
 @protocol AddChindrenViewControllerDelegate <NSObject>
-
 
 
 @end
@@ -32,7 +31,6 @@ typedef NS_ENUM(NSInteger, UICollectionViewCellChangeStyle) {
 @property(nonatomic) NSInteger currentPage; // 默认选中项
 
 @property (nonatomic, copy) NSArray *dataArray;
-
 
 @property (nonatomic) UICollectionViewCellChangeStyle changeStyle;// 下划线变化样式
 
