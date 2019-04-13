@@ -62,23 +62,23 @@ typedef NS_ENUM(NSInteger, UICollectionViewCellChangeStyle) {
 
 ### UICollectionViewCellChangeStyleDefaultStyle 默认
 
-![default](http://1.z9ls.com/t6/701/1555142838x2728329083.gif)
+![default](https://github.com/zhigangwu/zhigangwu.github.io/blob/master/images/default.gif?raw=true)
 
 ### UICollectionViewCellChangeStyleSynchronizeStyle 同步
 
-![Synchronize](http://1.z9ls.com/t6/701/1555142921x2728329083.gif)
+![Synchronize](https://github.com/zhigangwu/zhigangwu.github.io/blob/master/images/Synchronize.gif?raw=true)
 
 ### UICollectionViewCellChangeStyleMovingStyle 移动
 
-![Moving](http://1.z9ls.com/t6/701/1555142962x2728329083.gif)
+![Moving](https://github.com/zhigangwu/zhigangwu.github.io/blob/master/images/Moving.gif?raw=true)
 
 ### UICollectionViewCellChangeStyleIndentationStyle 缩进
 
-![Indentation](http://1.z9ls.com/t6/701/1555143004x2728329083.gif)
+![Indentation](https://github.com/zhigangwu/zhigangwu.github.io/blob/master/images/Indentation.gif?raw=true)
 
 ### UICollectionViewCellChangeStyleCrawlStyle 爬行
 
-![Crawl](http://1.z9ls.com/t6/701/1555143052x2728329083.gif)
+![Crawl](https://github.com/zhigangwu/zhigangwu.github.io/blob/master/images/Crawl.gif?raw=true)
 
 
 ```

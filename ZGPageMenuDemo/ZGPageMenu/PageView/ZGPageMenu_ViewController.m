@@ -69,7 +69,7 @@
     
     scrollView.dataArray = @[@"人族",@"不死族",@"精灵族",@"兽族",@"娜迦族",@"黑暗巨魔",@"红龙"];
     /*
-    类名栏的字体颜色设置一定要优于设置当前的选择页，不然没有效果
+    默认的字体颜色设置一定要优于设置当前的选择页，不然没有效果
     */
     scrollView.defaultColor = UIColor.lightGrayColor;
     scrollView.selectedtColor = UIColor.blackColor;

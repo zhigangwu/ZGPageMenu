@@ -30,7 +30,7 @@ typedef NS_ENUM(NSInteger, UICollectionViewCellChangeStyle) {
 
 @property(nonatomic) NSInteger currentPage; // 默认选中项
 
-@property (nonatomic, copy) NSArray *dataArray;
+@property (nonatomic, copy) NSArray *dataArray; // 菜单标题
 
 @property (nonatomic) UICollectionViewCellChangeStyle changeStyle;// 下划线变化样式
 
