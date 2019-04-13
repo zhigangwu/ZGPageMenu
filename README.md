@@ -1,28 +1,110 @@
 # ZGPageMenu
 
-![CI Status](https://img.shields.io/travis/zhigangwu/ZGPageMenu.svg?style=flat)
+[![CI Status](https://img.shields.io/travis/zhigangwu/ZGPageMenu.svg?style=flat)](https://travis-ci.org/zhigangwu/ZGPageMenu)
 [![Version](https://img.shields.io/cocoapods/v/ZGPageMenu.svg?style=flat)](https://cocoapods.org/pods/ZGPageMenu)
 [![License](https://img.shields.io/cocoapods/l/ZGPageMenu.svg?style=flat)](https://cocoapods.org/pods/ZGPageMenu)
 [![Platform](https://img.shields.io/cocoapods/p/ZGPageMenu.svg?style=flat)](https://cocoapods.org/pods/ZGPageMenu)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
 ZGPageMenu is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```
 pod 'ZGPageMenu'
+```
+
+## Tutorial
+
+```
+#import "ZGScrollView.h"
+
+```
+
+```
+ZGScrollView *scrollView = [[ZGScrollView alloc] initWithFrame:<#(CGRect)#>];
+```
+
+```
+scrollView.dataArray = @[@"标题1",@"标题2",@"标题3",@"标题4"];
+```
+
+```
+// 设置默认字体颜色
+scrollView.defaultColor = UIColor.lightGrayColor;
+
+// 设置选中项字体颜色
+scrollView.selectedtColor = UIColor.blackColor;
+
+// 设置当前默认选中栏
+scrollView.currentPage = 0;
+
+// 设置下滑线的宽度 高度 颜色 
+[scrollView customizeUnlineWidth:50 setUnlineHeight:2 setUnlineColor:UIColor.blackColor];
+```
+
+### <font color = red> 默认的字体颜色设置一定要优于设置当前的选择页，不然没有效果 </font>
+
+```
+// 下划线的改变类型 一共提供了五中变化类型 
+scrollView.changeStyle = UICollectionViewCellChangeStyleDefaultStyle;
+
+typedef NS_ENUM(NSInteger, UICollectionViewCellChangeStyle) {
+    UICollectionViewCellChangeStyleDefaultStyle,        // 默认样式
+    UICollectionViewCellChangeStyleSynchronizeStyle,    // 同步
+    UICollectionViewCellChangeStyleMovingStyle,         // 移动
+    UICollectionViewCellChangeStyleIndentationStyle,    // 缩进
+    UICollectionViewCellChangeStyleCrawlStyle           // 爬行
+};
+
+```
+
+### UICollectionViewCellChangeStyleDefaultStyle 默认
+
+![default](http://1.z9ls.com/t6/701/1555142838x2728329083.gif)
+
+### UICollectionViewCellChangeStyleSynchronizeStyle 同步
+
+![Synchronize](http://1.z9ls.com/t6/701/1555142921x2728329083.gif)
+
+### UICollectionViewCellChangeStyleMovingStyle 移动
+
+![Moving](http://1.z9ls.com/t6/701/1555142962x2728329083.gif)
+
+### UICollectionViewCellChangeStyleIndentationStyle 缩进
+
+![Indentation](http://1.z9ls.com/t6/701/1555143004x2728329083.gif)
+
+### UICollectionViewCellChangeStyleCrawlStyle 爬行
+
+![Crawl](http://1.z9ls.com/t6/701/1555143052x2728329083.gif)
+
+
+```
+// 添加相应的子视图
+[self addChildView];
+
+- (void)addChildView {
+    Humanity_ViewController *humanity = [[Humanity_ViewController alloc] init];
+    [self addChildViewController:humanity];
+
+    Undead_ViewController *undead = [[Undead_ViewController alloc] init];
+    [self addChildViewController:undead];
+
+    ...
+
+// 添加子视图到数组中
+    NSMutableArray *mutablearray = [NSMutableArray arrayWithObjects:humanity,undead,nil];
+    
+//  添加子视图数组到 scrollView 中
+    [scrollView addChildrenController:mutablearray];
+}
 ```
 
 ## Author
 
-Ryan, 1402832352@qq.com
+Ryan, 1402832352@qq.com, hardcoreproblem@gmail.com,[Blog](https://zhigangwu.github.io/)
 
 ## License
 
